@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Xshop-Dự án Mẫu</title>
+    <link rel="icon" href="images/logo.jpg" type="image/gif" sizes="16x16">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <!-- Slick slider -->
+    <!-- <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+    <script src="js/slick.min.js"></script> -->
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+
+<body>
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-dark">
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid logo" src="./images/logo.jpg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarsExampleDefault">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="category.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Chính sách</a>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control input-custom" placeholder="Từ khóa...">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-info btn-number btn-custom">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- user -->
+                        <div class="widgets-wrap float-md-right ml-4">
+                            <div class="widget-header  mr-3">
+                                <a href="#" class="icon icon-sm rounded-circle border"><i
+                                        class="fa fa-shopping-cart"></i></a>
+                                <span class="badge badge-pill badge-danger notify">0</span>
+                            </div>
+                            <div class="widget-header icontext">
+                                <a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-user"></i></a>
+                                <div class="text">
+                                    <span class="text-white">Xin chào!</span>
+                                    <div>
+                                        <a class="text-info" href="#">Đăng nhập</a> |
+                                        <a class="text-info" href="#"> Đăng ký</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!-- widgets-wrap.// -->
+                    </form>
+
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Giỏ hàng</h1>
+        </div>
+    </section>
+
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col"> </th>
+                                <th scope="col">Sản phẩm</th>
+                                <th scope="col">Tráng thái</th>
+                                <th scope="col" class="text-center">Số lượng</th>
+                                <th scope="col" class="text-right">Giá</th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                <td>Product Name Dada</td>
+                                <td>In stock</td>
+                                <td><input class="form-control" type="text" value="1" /></td>
+                                <td class="text-right">124,90 $</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button> </td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                <td>Product Name Toto</td>
+                                <td>In stock</td>
+                                <td><input class="form-control" type="text" value="1" /></td>
+                                <td class="text-right">33,90 $</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button> </td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                <td>Product Name Titi</td>
+                                <td>In stock</td>
+                                <td><input class="form-control" type="text" value="1" /></td>
+                                <td class="text-right">70,00 $</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button> </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Tổng</td>
+                                <td class="text-right">255,90 $</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Phí vận chuyển</td>
+                                <td class="text-right">6,90 $</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><strong>Thanh toán</strong></td>
+                                <td class="text-right"><strong>346,90 $</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="row">
+                    <div class="col-sm-12  col-md-6">
+                        <button class="btn btn-block btn-light">Tiếp tục mua hàng</button>
+                    </div>
+                    <div class="col-sm-12 col-md-6 text-right">
+                        <button class="btn btn-lg btn-block btn-success text-uppercase">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-4 col-xl-3">
+                    <h5>Về chúng tôi</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <p class="mb-0">
+                        Xshop - Trang thương mại điện tử lớn nhất Việt Nam
+                    </p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                    <h5>Thông tin</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <ul class="list-unstyled">
+                        <li><a href=""><i class="fas fa-map-marker-alt"></i> Trịnh Văn Bô - Nam Từ Liêm</a></li>
+                        <li><a href=""><i class="fas fa-phone-volume"></i> 0982084197</a></li>
+                        <li><a href=""><i class="fas fa-envelope"></i>hieunmph17303@fpt.edu.vn</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                    <h5>Chính sách</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <ul class="list-unstyled">
+                        <li><a href="">Chính sách bảo hành</a></li>
+                        <li><a href="">Chính sách đổi hàng</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách vận chuyển</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                    <h5>Liên hệ</h5>
+                    <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-home mr-2"></i> Công ty</li>
+                        <li><i class="fa fa-envelope mr-2"></i> hieunmph17303@fpt.edu.vn</li>
+                        <li><i class="fa fa-phone mr-2"></i> + 0987654321</li>
+                        <li><i class="fa fa-print mr-2"></i> + 0987654321</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
